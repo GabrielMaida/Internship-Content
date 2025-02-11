@@ -1,0 +1,51 @@
+/* All elements within the DOM */
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* The 'main' element */
+main{
+    background-color: lightskyblue;
+}
+
+/* Elements with id 'aboutme' */
+#aboutme{
+    background-color: beige;
+}
+
+/* Section elements with id 'contactme' */
+section#contactme{
+    background-color: violet;
+}
+
+/* Elements with class 'general-content' */
+[class~='general-content']{
+    display: flex;
+}
+
+/* Aside elements with class 'ad-section' */
+aside[class~='ad-section']{
+    background-color: lightcoral;
+}
+
+/* Elements with the classes 'general-header' and 'general-footer' */
+.general-header, .general-footer{
+    background-color: lightgreen;
+}
+
+/* Elements 'ol' with 'section' and 'main' as ancestors (the order is important) */
+/* main > section > ol*/
+main section ol{
+    background-color: greenyellow;
+}
+
+/* Button elements which are children of elements with class 'ad-section' */
+.ad-section button{
+    background-color: brown;
+}
+
+/* Aside elements with class 'ad-section' */
+aside.ad-section{
+    display: flex;
+    flex-direction: column;
+}
