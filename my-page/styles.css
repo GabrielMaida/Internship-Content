@@ -107,6 +107,15 @@ a:where(:not(:hover)){
     margin: 0.7rem 0.5rem;
 }
 
+section#portfolio{
+    display: flex;
+    flex-direction: column;
+}
+
+section#portfolio img{
+    max-width: 200px;
+    max-height: 200px;
+}
 
 /*
 :nth-child()
