@@ -12,7 +12,7 @@
         <header>
             <nav>
                 <p class="logo">TonyPro</p>
-                <a class="menu-toggle" id="menu-toggle" aria-label="Menu button" aria-expanded="false" href="">☰</a>
+                <a class="menu-toggle" id="menu-toggle" aria-label="Menu button" aria-expanded="true">☰</a>
                 <ul class="nav-links" id="nav-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#features">Features</a></li>
@@ -97,9 +97,9 @@
                     document
                         .getElementById('menu-toggle')
                         .ariaExpanded = 
-                    document
-                        .getElementById('menu-toggle')
-                        .ariaExpanded == "true" ? "false" : "true";
+						document
+							.getElementById('menu-toggle')
+							.ariaExpanded == "true" ? "false" : "true";
                 })
         </script>
     </body>
