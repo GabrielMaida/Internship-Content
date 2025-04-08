@@ -1,0 +1,24 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "Understanding TypeScript",
+  "keywords": [
+    "typescript",
+    "javascript"
+  ],
+  "homepage": "https://github.com/GabrielMaida/Internship-Content/tree/main#readme",
+  "bugs": {
+    "url": "https://github.com/GabrielMaida/Internship-Content/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielMaida/Internship-Content.git#main"
+  },
+  "license": "MIT",
+  "author": "Gabriel Antônio Maida",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
