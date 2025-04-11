@@ -68,3 +68,22 @@ console.log('\nSum:', addedNumbers);
 
 /////////////////////////////////////////
 
+import { createServer } from 'node:http';
+
+const server = createServer((req, res) => {
+    console.log(req.method);
+    res.end('Hello World!');
+})
+
+// server.listen(3100);
+
+import express from 'express';
+
+const app = express();
+
+app.get('/', (req, res) => {
+    console.log(req.method);
+    res.json({ message: 'Hello World!' });
+})
+
+app.listen(3100);
