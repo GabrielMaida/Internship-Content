@@ -1,7 +1,7 @@
 {
-  "name": "typescript",
+  "name": "typescript-basics",
   "version": "1.0.0",
-  "description": "Understanding TypeScript",
+  "description": "TypeScript Basics Learning",
   "keywords": [
     "typescript",
     "javascript"
@@ -23,11 +23,6 @@
     "start": "node dist/app.js"
   },
   "devDependencies": {
-    "@types/express": "^5.0.1",
-    "@types/node": "^22.14.0",
     "typescript": "^5.8.3"
-  },
-  "dependencies": {
-    "express": "^5.1.0"
   }
 }
