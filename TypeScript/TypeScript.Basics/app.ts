@@ -1,7 +1,15 @@
-console.log("Hello World!\n");
+let userInput: unknown;
+let userName: string;
 
-let oi:number = 4;
+userInput = 5;
+userInput = "Max";
+if (typeof userInput === "string") {
+	userName = userInput;
+}
 
-oi += 3;
+function generateError(message: string, code: number): never {
+	throw { message: message, errorCode: code };
+	// while (true) {}
+}
 
-console.log(oi);
+// generateError('An error occurred!', 500);

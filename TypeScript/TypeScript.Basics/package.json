@@ -20,7 +20,8 @@
   "main": "dist/app.js",
   "scripts": {
     "compile": "tsc",
-    "start": "node dist/app.js"
+    "start": "node dist/app.js",
+    "watch": "tsc -watch"
   },
   "devDependencies": {
     "typescript": "^5.8.3"
