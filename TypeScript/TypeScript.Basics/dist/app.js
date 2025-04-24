@@ -1,13 +1,17 @@
-let userInput;
-let userName;
-userInput = 5;
-userInput = "Max";
-if (typeof userInput === "string") {
-    userName = userInput;
+class Person {
+    name;
+    // name: string;
+    age = 30;
+    // constructor(public n: string) {
+    // 	this.name = n;
+    // }
+    constructor(name) {
+        this.name = name;
+    }
+    greet(phrase) {
+        console.log(phrase + " " + this.name);
+    }
 }
-function generateError(message, code) {
-    throw { message: message, errorCode: code };
-    // while (true) {}
-}
+let user1 = new Person("Max");
+user1.greet("Hi there! I am");
 export {};
-// generateError('An error occurred!', 500);
